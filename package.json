@@ -1,0 +1,25 @@
+{
+  "name": "haven",
+  "version": "1.0.0",
+  "description": "An application that allows a user to choose the best location to work remotely based on the analysis of data from Google Maps and Google Places.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuckthefrenchie/Haven.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuckthefrenchie/Haven/issues"
+  },
+  "homepage": "https://github.com/chuckthefrenchie/Haven#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  }
+}
