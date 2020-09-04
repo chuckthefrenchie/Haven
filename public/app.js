@@ -1,3 +1,4 @@
-$(document).on("click", "#zipButton", function() {
-    console.log("button works") 
-  });
+const getInputValue = () => {
+    var inputVal = document.getElementById("inputArea").value;
+    console.log(inputVal);
+}
