@@ -4,15 +4,22 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
+
 <body>
     <section class="one">
-<header>
-<h1>Welcome to Haven </h1>
-</header>
-<section class="form">
-    <input type="text" id="inputArea" placeholder="Please enter your zipcode">
-    <button type="button" id="zipButton" onclick="getInputValue()">Enter</button>
-</section>
-<script type="text/javascript" src="app.js"></script>
+        <header>
+            <h1>Welcome to Haven </h1>
+        </header>
+        <section class="form">
+            <input type="text" id="inputArea" placeholder="Please enter your city or zipcode">
+            <button type="button" id="zipButton" onclick="getZipInput()">Search</button>
+        </section>
+        <div id="map">
 
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+
+        <script defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE8vNY5NdxQVYKy4u6Tj1OegLTcJKEBOk&callback=initMap">
+            </script>
 </body>
